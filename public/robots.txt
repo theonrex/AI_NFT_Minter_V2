@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /nogooglebot/
+
+User-agent: *
+Disallow: /cdn-cgi/l/email-protection
+
+User-agent: *
+Allow: /
