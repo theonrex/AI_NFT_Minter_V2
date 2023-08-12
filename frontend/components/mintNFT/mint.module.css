@@ -1,0 +1,124 @@
+.form {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+}
+.form .nftGenerator {
+  width: 50%;
+}
+
+.form form input {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+  padding: 1em;
+  width: 100%;
+  border-radius: 0.5em;
+  color: black;
+  width: 100%;
+}
+
+.create_mint {
+  background-color: bisque;
+  padding: 1em;
+  border-radius: 1em;
+  color: black;
+  font-weight: 600;
+  width: 60% !important;
+}
+
+.nav__brand h1 {
+  font-size: 2em;
+  color: white;
+  font-weight: 600;
+}
+
+.nav__connect {
+  color: white;
+  font-size: 1em;
+}
+.form .AI_Image {
+  width: 45%;
+}
+
+.form .AI_Image img {
+  width: 500px;
+  border-radius: 0.5em;
+}
+
+.form .image__placeholder {
+  font-size: 1em;
+  color: white;
+}
+
+.url {
+  color: white;
+  font-size: 1.5em;
+  margin: 0 0 1em 0;
+}
+
+.url a {
+  color: black;
+  font-size: 1em;
+  background-color: white;
+  border-radius: 0.5em;
+  margin: 1em;
+  padding: 0.9em 1.5em;
+}
+
+@media screen and (max-width: 1200px) {
+  .form,
+  .ai_body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  .form .nftGenerator {
+    width: 90%;
+  }
+
+  .form .AI_Image {
+    width: 90%;
+  }
+
+  .url {
+    margin: 2em 1em;
+  }
+}
+
+@media screen and (max-width: 358px) {
+  .nav__brand h1 {
+    font-size: 1.5em;
+  }
+
+  .create_mint{
+    font-size: 1em;
+  }
+
+  .create_mint {
+  background-color: bisque;
+  padding: 1em;
+  border-radius: 1em;
+  color: black;
+  font-weight: 600;
+  width: 80% !important;
+}
+}

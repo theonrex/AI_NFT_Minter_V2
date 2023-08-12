@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "THICCCBOI-Black";
+  src: url("./fonts/THICCCBOI-Black.ttf");
+}
+
+@font-face {
+  font-family: "THICCCBOI-Bold";
+  src: url("./fonts/THICCCBOI-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "THICCCBOI-ExtraBold";
+  src: url("./fonts/THICCCBOI-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "THICCCBOI-Medium";
+  src: url("./fonts/THICCCBOI-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "THICCCBOI-Regular";
+  src: url("./fonts/THICCCBOI-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "THICCCBOI-SemiBold";
+  src: url("./fonts/THICCCBOI-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "THICCCBOI-ThicccAF";
+  src: url("./fonts/THICCCBOI-ThicccAF.ttf") format("truetype");
+}
+
+:root {
+  --app-gray-100: #e5e5e5;
+  --app-gray-200: #aeacb8;
+  --app-grey-100: #f4f4f4;
+  --app-grey-200: #9693a2;
+  --app-black-100: #424141;
+  --app-black-400: #0e040c;
+  --app-black-500: #13111a;
+  --app-blue-100: #f2f8ff;
+  --app-blue-200: #d6edff;
+  --app-blue-300: #55ceff;
+  --app-blue-400: #1792ff;
+  --app-blue-500: #0d6ecc;
+  --app-blue-600: #054d99;
+  --app-blue-700: #003066;
+  --app-green-400: #0f6664;
+  --app-green-500: #006655;
+  --app-red-500: #cc154a;
+  --app-white: #ffffff;
+  --app-primary-font: "THICCCBOI-Regular", "sans-serif";
+  --app-primary-font-bold: "THICCCBOI-Bold", "sans-serif";
+  --app-border-radius-sm: 6px;
+  --app-border-radius-md: 21px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+body{
+    background: #020101 !important;
+  background-image: radial-gradient(
+      at 47% 33%,
+      hsl(304.63, 100%, 5%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(218, 39%, 11%) 0, transparent 55%) !important;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--app-primary-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--app-primary-font);
+  font-weight: 600;
+}
+
+p,
+span {
+  font-weight: 400;
+}
+
+.coming-soon {
+  font-family: var(--app-primary-font-bold);
+  background: #0b9b83;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding-left: 5px;
+  padding-right: 5px;
+}

@@ -1,0 +1,26 @@
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    max-width: 90%;
+    width: 20rem;
+    height: 20rem;
+    margin: 0 25px;
+    border: 3px solid rgba(255, 255, 255, 0.90);
+    border-radius: 20px;
+  
+    overflow: hidden;
+  }
+
+.image__placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.thinwhiteborder {
+    border: 1px solid #9A9A9A;
+    width: 70vw;
+  }

@@ -1,0 +1,132 @@
+.container {
+  overflow: hidden;
+}
+
+.container h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
+  font-family: var(--app-primary-font-bold);
+}
+
+.container h2 {
+  font-size: 1.35rem;
+  line-height: 1.5rem;
+}
+
+.container h3 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 800;
+  font-family: var(--app-primary-font-bold);
+}
+
+.container P {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+}
+
+.container .banner {
+
+}
+
+.container hr {
+  height: 1px;
+  background: var(--app-gray-200);
+  border: var(--app-gray-200);
+  border-radius: 1px;
+}
+
+@media all and (min-width: 768px) {
+  .container h1 {
+    font-size: 1.65rem;
+    line-height: 1.75rem;
+    width: 80%;
+  }
+
+  .container h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .container h3 {
+    font-size: 1.35rem;
+    line-height: 1.5rem;
+  }
+
+  .container P {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+
+  .container .banner {
+  }
+
+  .container .banner > div {
+    width: 50%;
+  }
+
+  .container .banner button {
+    font-size: 16px;
+    transform: none;
+  }
+
+}
+
+@media all and (min-width: 992px) {
+  .container h1 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+
+  .container h2 {
+    font-size: 1.65rem;
+    line-height: 1.6rem;
+  }
+
+  .container h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .container p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .container h1 {
+    font-size: 3rem;
+    line-height: 2.75rem;
+  }
+
+  .container h2 {
+    font-size: 1.85rem;
+    line-height: 1.75rem;
+  }
+
+  .container h3 {
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+  }
+
+  .container p {
+    font-size: 1rem;
+    line-height: 2.2rem;
+  }
+}
+
+@media all and (min-width: 1200px){
+}
+
+@media all and (min-width: 1280px){
+}
+
+@media all and (max-width: 767px){
+}
+
+
+@media all and (max-width: 500px){
+}
