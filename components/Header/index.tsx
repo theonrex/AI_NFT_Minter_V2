@@ -20,7 +20,7 @@ const Header = () => {
           <div className="flex items-center justify-between">
             <Link
               className="flex items-center text-xl font-semibold  dark:text-gray-800"
-              href="/"
+              href="https://xusd-frontend.vercel.app/"
             >
               <Image src={XusdLogo} alt="XUD" width={50} />{" "}
               <h3 className="text-white pl-3  dark:text-white">XUSD</h3>
@@ -64,14 +64,14 @@ const Header = () => {
             <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
               <Link
                 className="font-medium text-white text-xl"
-                href="/swap"
+                href="https://xusd-frontend.vercel.app/swap"
                 aria-current="page"
               >
                 Swap
               </Link>
               <Link
                 className="font-medium text-white text-xl hover:text-gray-500 dark:text-gray-500 dark:hover:text-white"
-                href="/marketplace"
+                href="#"
               >
                 Tokens
               </Link>
@@ -79,7 +79,7 @@ const Header = () => {
                 className="font-medium text-white text-xl hover:text-gray-500 dark:text-gray-500 dark:hover:text-white"
                 href="#"
               >
-                NFTs
+                Mint Ai NFTs
               </Link>
               <Link
                 className="font-medium text-white text-xl hover:text-gray-500 dark:text-gray-500 dark:hover:text-white"
